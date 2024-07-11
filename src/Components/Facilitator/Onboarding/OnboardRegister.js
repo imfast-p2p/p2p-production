@@ -323,11 +323,7 @@ export class OnboardRegister extends Component {
                 dateofbirth: this.state.dateofbirth,
                 utype: parseInt(this.state.utype),
                 gender: this.state.gender,
-                regmode: 1,
-                ...(this.state.otpm && { otpm: parseInt(this.state.otpm) }),
-                ...(this.state.otpe && { otpe: parseInt(this.state.otpe) }),
-                ...(this.state.mobileref && { mobileref: parseInt(this.state.mobileref) }),
-                ...(this.state.emailref && { emailref: parseInt(this.state.emailref) }),
+                regmode: 1
 
             })
             var digiResponse = JSON.stringify({
@@ -339,11 +335,7 @@ export class OnboardRegister extends Component {
                 utype: parseInt(this.state.utype),
                 gender: this.state.gender,
                 regmode: parseInt(this.state.regMode),
-                refid: this.state.referenceId,
-                ...(this.state.otpm && { otpm: parseInt(this.state.otpm) }),
-                ...(this.state.otpe && { otpe: parseInt(this.state.otpe) }),
-                ...(this.state.mobileref && { mobileref: parseInt(this.state.mobileref) }),
-                ...(this.state.emailref && { emailref: parseInt(this.state.emailref) }),
+                refid: this.state.referenceId
             })
             var offlineKYCReg = JSON.stringify({
                 name: this.state.name,
@@ -354,11 +346,7 @@ export class OnboardRegister extends Component {
                 utype: parseInt(this.state.utype),
                 gender: this.state.gender,
                 regmode: parseInt(this.state.regMode),
-                refid: this.state.referenceId,
-                ...(this.state.otpm && { otpm: parseInt(this.state.otpm) }),
-                ...(this.state.otpe && { otpe: parseInt(this.state.otpe) }),
-                ...(this.state.mobileref && { mobileref: parseInt(this.state.mobileref) }),
-                ...(this.state.emailref && { emailref: parseInt(this.state.emailref) }),
+                refid: this.state.referenceId
             })
             var bodyData;
             if (this.state.regMode == 1) {
@@ -671,7 +659,7 @@ export class OnboardRegister extends Component {
                                                 <div className="form-row" style={{ textAlign: "center" }}>
                                                     <div className="form-group col">
                                                         <button type="button" className="btn btn-sm mr-2 text-white" style={{ backgroundColor: "rgb(136, 189, 72)", fontSize: "14px" }}
-                                                            onClick={this.otp}>Register</button>
+                                                            onClick={this.agentRegistration}>Register</button>
                                                         <button type="button" className="btn btn-sm text-white" style={{ backgroundColor: "#0079BF", fontSize: "14px" }}
                                                             onClick={this.cancelRegistration}>{t('Cancel')}</button>
                                                     </div>

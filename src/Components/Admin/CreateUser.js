@@ -107,7 +107,7 @@ class CreateUser extends Component {
         this.getCompanyname()
         this.getSysEmpType()
         this.getSysEmpStatus()
-        $("#createUserBtn").prop('disabled', true)
+        //$("#createUserBtn").prop('disabled', true)
         // this.getOfficeList()
         // .then(responseData => {
         //     // Handle successful response
@@ -201,10 +201,10 @@ class CreateUser extends Component {
             console.log("passed")
             this.setState({ invalidPan: false })
             this.setState({ pannumber: event.target.value.toUpperCase().trim() })
-            $("#createUserBtn").prop('disabled', false)
+            //$("#createUserBtn").prop('disabled', false)
         } else {
             this.setState({ invalidPan: true })
-            $("#createUserBtn").prop('disabled', true)
+            //$("#createUserBtn").prop('disabled', true)
         }
     }
 
@@ -331,10 +331,10 @@ class CreateUser extends Component {
                 invalidMnum: false,
                 mobilenumber: eventInput
             });
-            $("#createUserBtn").prop('disabled', false)
+            //$("#createUserBtn").prop('disabled', false)
         } else {
             this.setState({ invalidMnum: true });
-            $("#createUserBtn").prop('disabled', true);
+            //$("#createUserBtn").prop('disabled', true);
         }
     }
     email(event) {
@@ -606,6 +606,9 @@ class CreateUser extends Component {
         }
         var roleIDArray = roleIDs;
         console.log(roleIDArray)
+        // officeid: this.state.officeid,
+        //     officelevel: this.state.officelevel,
+        //         stafflevel: this.state.stafflevel
         fetch(BASEURL + '/usrmgmt/registersystemuser', {
             method: 'post',
             headers: {
@@ -635,9 +638,7 @@ class CreateUser extends Component {
                 pincode: parseInt(this.state.pincode),
                 pan: this.state.pannumber,
 
-                officeid: this.state.officeid,
-                officelevel: this.state.officelevel,
-                stafflevel: this.state.stafflevel
+
 
             })
         })
@@ -1183,7 +1184,7 @@ class CreateUser extends Component {
                                     </select>
                                 </div>
                                 {/* Hierarchy section office list */}
-                                <div className="form-group col-md-4" id="list1">
+                                {/* <div className="form-group col-md-4" id="list1">
                                     <p htmlFor="Name" style={{ color: "#222C70", fontFamily: "Poppins,sans-serif", fontWeight: "bold" }}>{t('Select Zone *')}</p>
                                     <select id="" style={{ height: "37px", backgroundColor: "rgb(247, 248, 250)", marginTop: "-16px" }} className="form-select" onClick={this.officeList} onChange={this.officeList1}>
                                         <option defaultValue>Select</option>
@@ -1202,7 +1203,7 @@ class CreateUser extends Component {
                                             <option key={index} style={{ color: "GrayText" }} value={ele.officeid}>{ele.officename}</option>
                                         ))}
                                     </select>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="form-row" style={{ marginTop: "-10px" }}>
                                 <div className="form-group col-md-4" id="list3" style={{ display: "none" }}>
@@ -1216,7 +1217,6 @@ class CreateUser extends Component {
                                     </select>
                                 </div>
 
-                                {/* staff list */}
                                 <div className="form-group col-md-4" id="list4" style={{ display: "none" }}>
                                     <p htmlFor="Name" style={{ color: "#222C70", fontFamily: "Poppins,sans-serif", fontWeight: "bold" }}>{t('Select Staff Level *')}</p>
                                     <select id="inputState" style={{ height: "37px", backgroundColor: "rgb(247, 248, 250)", marginTop: "-16px" }} className="form-select" onChange={this.staffList1}>
