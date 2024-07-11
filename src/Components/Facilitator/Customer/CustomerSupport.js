@@ -965,7 +965,10 @@ export class CustomerSupport extends Component {
             );
     }
     personalSubmit = () => {
-        this.setState({ personalSubmit: true })
+        this.setState({
+            personalSubmit: true,
+            assistSaveFlag: false
+        })
         $("#personalSubmit").show()
         $("#EditPersonalbtn").show()
         $("#savepersonalDetBtn").show()
@@ -982,7 +985,10 @@ export class CustomerSupport extends Component {
         $("#saveBankDetBtn").hide()
     }
     addressSubmit = () => {
-        this.setState({ addressSubmit: true })
+        this.setState({
+            addressSubmit: true,
+            assistSaveFlag: false
+        })
         $("#personalSubmit").hide()
         $("#EditPersonalbtn").hide()
         $("#savepersonalDetBtn").hide()
@@ -999,7 +1005,10 @@ export class CustomerSupport extends Component {
         $("#saveBankDetBtn").hide()
     }
     bankSubmit = () => {
-        this.setState({ bankSubmit: true })
+        this.setState({
+            bankSubmit: true,
+            assistSaveFlag: false
+        })
         $("#personalSubmit").hide()
         $("#EditPersonalbtn").hide()
         $("#savepersonalDetBtn").hide()
@@ -1629,8 +1638,8 @@ export class CustomerSupport extends Component {
         // relationName
         $("input[name='relationName']").val(input_before);
     }
-    discardChanges=()=>{
-        window.location="/facilitatorDashboard"
+    discardChanges = () => {
+        window.location = "/facilitatorDashboard"
     }
     assistedSubmitProfileDetails = (refId) => {
         //$("#cnfProfileModal").click()
