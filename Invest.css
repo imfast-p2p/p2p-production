@@ -1,0 +1,38 @@
+.group select option {
+    background: rgba(255, 255, 255, .1)
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #00ac96;
+}
+
+.login-snip {
+    background-color: #fff;
+}
+
+.signin-text {
+    font-style: normal;
+    font-weight: 600 !important;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-color: #181d24 !important;
+    border-style: solid !important;
+    border-width: 2px 1px 1px 2px !important;
+    padding: 5px !important;
+    color: #676b6e !important;
+    height: auto;
+    border-radius: 0;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+
+input#dob.input {
+    color: #676b6e !important;
+}

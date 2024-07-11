@@ -1,0 +1,301 @@
+.body-content .image2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.navbar-brand-img {
+  height: 100px;
+}
+
+.scrollbar-inner .scroll-scrolly_visible {
+  height: auto;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  max-height: 354px;
+}
+
+.image2 {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.sidenav {
+  /* position: fixed; */
+  z-index: 1;
+}
+
+.body-content .header {
+  font-size: x-small;
+}
+
+.collapse.show {
+  visibility: visible;
+}
+
+.collapsing {
+  visibility: visible;
+  height: 0;
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.collapsing.width {
+  -webkit-transition-property: width, visibility;
+  transition-property: width, visibility;
+  width: 0;
+  height: 100%;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+h4.m-4.text-dark {
+  padding-left: unset !important;
+  width: 100%;
+}
+
+div.fixed {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  /* border: 3px solid #8AC007; */
+}
+
+@media only screen and (max-width:1060px) {
+  #LcardChange1 {
+    min-height: 150px;
+  }
+
+  #LcardChange2 {
+    min-height: 150px;
+  }
+
+  #LcardChange3 {
+    min-height: 150px;
+  }
+
+  #LcardChange4 {
+    min-height: 150px;
+  }
+
+  #LcardChange5 {
+    min-height: 150px;
+  }
+
+  #LcardChange6 {
+    min-height: 150px;
+  }
+
+  #LcardChange7 {
+    min-height: 150px;
+  }
+
+  #LcardChange8 {
+    min-height: 150px;
+  }
+
+  #LcardChangeT1 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #LcardChangeT2 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+  }
+
+  #LcardChangeT3 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #LcardChangeT4 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+  }
+
+  #LcardChangeT5 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #LcardChangeT6 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+  }
+
+  #LcardChangeT7 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+  #LcardChangeT77 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+    margin-top: -30px;
+  }
+
+  #LcardChangeT8 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+
+  }
+
+  #LcardChangeT9 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+  }
+
+  #LcardChangeT10 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #LcardChangeT11 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+  }
+
+  #LcardChangeT12 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #LcardChangeT13 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+  }
+
+  #LcardChangeT14 {
+    display:inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #LcardChangeT15 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+  }
+
+  #LescrowChange1 {
+    min-height: 200px;
+  }
+
+
+}
+
+@media screen and (max-width:574px) {
+  #LcardChange1 {
+    min-height: 80px;
+  }
+
+  #LcardChange2 {
+    min-height: 80px;
+  }
+
+  #LcardChange3 {
+    min-height: 80px;
+    
+
+  }
+
+  #LcardChange4 {
+    min-height: 80px;
+  }
+
+  #LcardChange5 {
+    min-height: 80px;
+  }
+
+  #LcardChange6 {
+    min-height: 80px;
+  }
+
+  #LcardChange7 {
+    min-height: 80px;
+  }
+
+  #LcardChange8 {
+    min-height: 80px;
+  }
+
+}
+
+@media only screen and (max-width:990px) {
+  #LescrowChange1 {
+    min-height: 360px;
+  }
+
+  #Ldash1 {
+    display: block;
+    flex-direction: column;
+    min-width: 600px;
+    margin-bottom: 10px;
+  }
+
+  #Ldash2 {
+    display: block;
+    flex-direction: column;
+    min-width: 600px;
+    margin-left: -20px;
+    margin-bottom: 10px;
+  }
+
+  #Ldash3 {
+    display: block;
+    flex-direction: column;
+    min-width: 600px;
+    margin-left: -20px;
+    margin-bottom: 5px;
+  }
+
+  #LescrowChange2 {
+    display: block;
+    flex-direction: column;
+    min-width: 516px;
+
+  }
+}
+
+@media only screen and (max-width:800px) {
+  #lenAccStatus {
+    display: block;
+    min-height: 200px;
+    margin-left: -20px;
+  }
+
+  #textPart {
+    display: block;
+    min-width: fit-content;
+  }
+
+  #lenAccStatus1 {
+    display: block;
+    min-width: fit-content;
+    margin-left: -60%;
+    margin-top: 16%;
+  }
+}
+
+@media only screen and (max-width:990px) {
+  #LescrowChange1 {
+    min-height: 360px;
+  }
+
+}

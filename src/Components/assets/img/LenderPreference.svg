@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.5" height="31.5" viewBox="0 0 31.5 31.5">
+  <g id="Lender_Preference" data-name="Lender Preference" transform="translate(-2.25 -2.25)">
+    <path id="Path_42545" data-name="Path 42545" d="M4.5,22.5v2.25H9.659L2.25,32.159,3.841,33.75l7.409-7.409V31.5H13.5v-9Z" fill="#053652"/>
+    <path id="Path_42546" data-name="Path 42546" d="M33.75,33.75h-9v-9h9ZM27,31.5h4.5V27H27Z" fill="#053652"/>
+    <path id="Path_42547" data-name="Path 42547" d="M22.5,22.5h-9v-9h9Zm-6.75-2.25h4.5v-4.5h-4.5Z" fill="#053652"/>
+    <path id="Path_42548" data-name="Path 42548" d="M27,19.125H24.75v-2.25H27a4.5,4.5,0,0,0,0-9H13.5V5.625H27a6.75,6.75,0,1,1,0,13.5Z" fill="#053652"/>
+    <path id="Path_42549" data-name="Path 42549" d="M11.25,11.25h-9v-9h9ZM4.5,9H9V4.5H4.5Z" fill="#053652"/>
+  </g>
+</svg>

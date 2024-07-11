@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.42" height="40.639" viewBox="0 0 31.42 40.639">
+  <g id="User_Management" data-name="User Management" transform="translate(14102 -20514)">
+    <g id="Group_2049" data-name="Group 2049" transform="translate(-14102 20541.416)">
+      <path id="circle-solid" d="M10.611,4a6.611,6.611,0,1,0,6.611,6.611A6.611,6.611,0,0,0,10.611,4Z" transform="translate(-4 -4)" fill="#122c54"/>
+      <g id="user" transform="translate(3 1.555)">
+        <path id="Path_42804" data-name="Path 42804" d="M12.653,2.972a1.806,1.806,0,1,1-1.806,1.806,1.806,1.806,0,0,1,1.806-1.806m0-.722a2.528,2.528,0,1,0,2.528,2.528A2.528,2.528,0,0,0,12.653,2.25Z" transform="translate(-9.042 -2.25)" fill="#fff"/>
+        <path id="Path_42805" data-name="Path 42805" d="M13.973,24.584h-.722V22.778a1.806,1.806,0,0,0-1.806-1.806H9.278a1.806,1.806,0,0,0-1.806,1.806v1.806H6.75V22.778A2.528,2.528,0,0,1,9.278,20.25h2.167a2.528,2.528,0,0,1,2.528,2.528Z" transform="translate(-6.75 -14.471)" fill="#fff"/>
+      </g>
+    </g>
+    <path id="Union_7" data-name="Union 7" d="M37.541,950.295v0Zm-18.2,0v0Zm-.3-.393h0Zm9.7-5.46v0Z" transform="translate(-14114.672 19586.541)" fill="none" stroke="#053652" stroke-linecap="square" stroke-linejoin="round" stroke-width="2"/>
+    <g id="Group_2050" data-name="Group 2050" transform="translate(-14094.115 20514)">
+      <path id="circle-solid-2" data-name="circle-solid" d="M12.492,4a8.492,8.492,0,1,0,8.492,8.492A8.492,8.492,0,0,0,12.492,4Z" transform="translate(-4 -4)" fill="#122c54"/>
+      <g id="user-2" data-name="user" transform="translate(3.853 1.997)">
+        <path id="Path_42804-2" data-name="Path 42804" d="M13.372,3.178A2.319,2.319,0,1,1,11.053,5.5a2.319,2.319,0,0,1,2.319-2.319m0-.928A3.247,3.247,0,1,0,16.619,5.5,3.247,3.247,0,0,0,13.372,2.25Z" transform="translate(-8.733 -2.25)" fill="#fff"/>
+        <path id="Path_42805-2" data-name="Path 42805" d="M16.028,25.817H15.1V23.5a2.319,2.319,0,0,0-2.319-2.319H10A2.319,2.319,0,0,0,7.678,23.5v2.319H6.75V23.5A3.247,3.247,0,0,1,10,20.25H12.78A3.247,3.247,0,0,1,16.028,23.5Z" transform="translate(-6.75 -12.828)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_2051" data-name="Group 2051" transform="translate(-14083.803 20541.416)">
+      <path id="circle-solid-3" data-name="circle-solid" d="M10.611,4a6.611,6.611,0,1,0,6.611,6.611A6.611,6.611,0,0,0,10.611,4Z" transform="translate(-4 -4)" fill="#122c54"/>
+      <g id="user-3" data-name="user" transform="translate(3 1.555)">
+        <path id="Path_42804-3" data-name="Path 42804" d="M12.653,2.972a1.806,1.806,0,1,1-1.806,1.806,1.806,1.806,0,0,1,1.806-1.806m0-.722a2.528,2.528,0,1,0,2.528,2.528A2.528,2.528,0,0,0,12.653,2.25Z" transform="translate(-9.042 -2.25)" fill="#fff"/>
+        <path id="Path_42805-3" data-name="Path 42805" d="M13.973,24.584h-.722V22.778a1.806,1.806,0,0,0-1.806-1.806H9.278a1.806,1.806,0,0,0-1.806,1.806v1.806H6.75V22.778A2.528,2.528,0,0,1,9.278,20.25h2.167a2.528,2.528,0,0,1,2.528,2.528Z" transform="translate(-6.75 -14.471)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

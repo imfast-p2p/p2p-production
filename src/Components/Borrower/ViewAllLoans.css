@@ -1,0 +1,21 @@
+@media only screen and (max-width:700px) {
+    #allLoansnav {
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+    }
+
+    #allLoansnav2 {
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+        padding-left:40px;
+    }
+
+    #allLoansnav3 {
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+        padding-left:40px;
+    }
+}

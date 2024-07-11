@@ -1,0 +1,44 @@
+body{
+    background-color: whitesmoke !important;
+}
+.HowItWords {
+  background-image: linear-gradient(to bottom, rgba(207, 205, 205, 0.445), rgba(17, 16, 16, 0.76)), url("../assets/HowItWorks.jpg");
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  position: absolute;
+  line-height: 300px;
+  text-align: center;
+  margin-left: 500px;
+}
+.HIW-text{
+    margin-top: 490px;
+    padding: 10px;
+}
+div.carousel-caption{
+    /* padding-bottom: 150px; */
+}
+h5.header-faircent{
+    background-color: white;
+    padding: 7px;
+    /* margin: auto; */
+    margin-left: 11.9px;
+    width: 98.2%;
+    margin-bottom: 0px;
+    font-family: fangsong;
+    font-weight: normal;
+}
+.wrapper {
+    padding: 0px;
+  }
+  
+  .image--cover {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+  
+    object-fit: cover;
+    object-position: center right;
+  }
+

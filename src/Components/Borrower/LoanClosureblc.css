@@ -1,0 +1,91 @@
+@media only screen and (max-width:1029px) {
+    /* Navigation */
+    #loanClosureRes{
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+    }
+    #loanClosureRes2{
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+        padding-left: 40px;
+    }
+    #loanClosureRes3{
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+        padding-left: 40px;
+    }
+
+
+    #LoanfirstCol{
+        display: block;
+        flex-direction: column;
+        min-width: 300px;
+    }
+    #vl{
+        min-height: 100px;
+    }
+    #secondCol1{
+        padding-left: 60px;
+    }
+    #secondCol2{
+        padding-left: 60px;
+        padding-bottom: 40px;
+    }
+    #secondCol3{
+        padding-left: 60px;
+        padding-bottom: 40px;
+    }
+
+    .cardPay{
+        min-height: 80px;
+    }
+
+    #emiHideCol {
+        display: none;
+    }
+
+    .hideCol {
+        display: none;
+    }
+
+    #dueHideCol {
+        display: none;
+    }
+
+    #closureHideCol {
+        display: none;
+    }
+
+    .displayAmount {
+        padding-left: 30px;
+    }
+
+    #emicard {
+        display: block;
+        flex-direction: column;
+        min-height: 200px;
+        min-width: 400px;
+    }
+
+    #othercard {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+    }
+
+    #upicard {
+        display: block;
+        flex-direction: column;
+        min-height: 300px;
+        min-width: 400px;
+    }
+
+    .btnPay {
+        max-width: 390px;
+    }
+
+
+}

@@ -1,0 +1,129 @@
+@media only screen and (max-width:930px) {
+    /* #BcardC {
+        margin-left: -50px;
+    }
+
+    #personalCard {
+        display: block;
+        flex-direction: column;
+        min-width: 200px;
+        min-height: 500px;
+    } */
+
+    #imgCol {
+        display: block;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    #pdetail1Col {
+        display: block;
+        flex-direction: column;
+    }
+
+    /* #emailF1 {
+        min-width: 100px;
+    }
+
+    #emailF2 {
+        min-width: 100px;
+    }
+
+    #emailF3 {
+        min-width: 100px;
+    }
+
+    #emailF4 {
+        min-width: 100px;
+    }
+
+    #pOne {
+        margin-top: -5px;
+    }
+
+    #pTwo {
+        margin-top: -13px;
+    }
+
+    #pThree {
+        margin-top: -13px;
+    }
+
+    #pFour {
+        margin-top: -13px;
+    }
+
+    #emailpF {
+        margin-top: -13px;
+    }
+
+    #genderpF {
+        margin-top: -13px;
+    }
+
+    #contactpF {
+        margin-top: -13px;
+    }
+
+    #dobpF {
+        margin-top: -13px;
+    } */
+
+    /* Navigation */
+    #BnavRes1 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+    }
+
+    #BnavRes2 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+        padding-left: 40px;
+    }
+
+    #BnavRes3 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    #digisubmit2 {
+        display: block;
+        flex-direction: column;
+    }
+
+    #digisubmit3 {
+        display: block;
+        flex-direction: column;
+    }
+
+    #digisubmit4 {
+        display: block;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    #pThree {
+        min-width: 260px;
+    }
+
+    #pFour {
+        min-width: 260px;
+    }
+}
+
+@media only screen and (max-width:690px) {
+    #pdetail1Col {
+        margin-left: 20px;
+    }
+
+    #personalCard {
+        min-height: 600px;
+    }
+}

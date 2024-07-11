@@ -1,0 +1,49 @@
+/* Customer OnBoarding Design */
+.two__image {
+  background-color: #0079BF;
+  clip-path: polygon(0 0, 71% 0, 62% 100%, 0% 100%);
+}
+
+.container .nav-pills .nav-link {
+  background-color: rgb(240, 249, 255);
+  color: #222C70;
+  font-weight: bold;
+  box-shadow: 0 13px 40px -5px rgb(50 50 93 / 12%), 0 8px 32px -8px rgb(0 0 0 / 14%), 0 -6px 32px -6px rgb(0 0 0 / 2%);
+}
+
+.container .nav-pills li .nav-link.active {
+  background-color: white;
+  color: #222C70;
+  border-left: 6px solid #0079BF;
+  box-shadow: 0 13px 40px -5px rgb(50 50 93 / 12%), 0 8px 32px -8px rgb(0 0 0 / 14%), 0 -6px 32px -6px rgb(0 0 0 / 2%);
+}
+
+#home-tab {
+  padding: 25px;
+}
+
+#profile-tab {
+  padding: 25px;
+}
+#register-tab{
+  padding: 15px;
+}
+#jlgregister-tab{
+  padding: 25px;
+}
+
+@media only screen and (max-width:1029.33px) {
+
+  #headingCust {
+    display: block;
+    flex-direction: column;
+    min-width: 400px;
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (max-width:767.33px) {
+  .tab-content {
+    padding-left: 20px;
+  }
+}

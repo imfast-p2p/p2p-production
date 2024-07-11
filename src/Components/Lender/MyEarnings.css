@@ -1,0 +1,19 @@
+@media only screen and (max-width:700px){
+    #myEarningsRes1{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+    }
+    #myEarningsRes2{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+        padding-left:40px;
+    }
+    #myEarningsRes3{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+        padding-left:40px;
+    }
+  }

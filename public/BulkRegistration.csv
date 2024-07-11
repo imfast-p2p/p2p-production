@@ -1,0 +1,3 @@
+name,mobilenumber,emailid,pan,dob,gender,utype,address_present,addr1,addr2,addr3,city,dist,state,pincode,statecode,addrtype
+ram,9886417996,ram12@gmail.com,ABCDE1009A,1991-04-02,M,LND,1,addr1,Addr2,Addr3,Bangalore,Bangalore,Karnataka,560085,KA,1
+raju,9709403939,raju12@gamil.com,ABCDE1009B,1984-02-01,M,BOR,1,addr1,Addr2,Addr3,Bangalore,Bangalore,Karnataka,560085,KA,1

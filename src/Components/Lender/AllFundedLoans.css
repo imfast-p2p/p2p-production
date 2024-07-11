@@ -1,0 +1,53 @@
+
+@media only screen and (min-width: 400px) {
+    #cols{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+    }
+  }
+@media only screen and (max-width:700px){
+    #date1{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+    }
+    #date2{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+    }
+    #Tdate{
+        margin-left:-20px
+    }
+    #status{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+    }
+    #StatusA{
+        margin-left:-20px
+    }
+    #label1{
+        padding-left:20px;
+    }
+
+    #navRes1{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+    }
+    #navRes2{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+        padding-left:40px;
+    }
+    #navRes3{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+        padding-left:40px;
+    }
+  }
+  

@@ -1,0 +1,186 @@
+body{
+    background-color: whitesmoke !important;
+}
+.About {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.76)), url("https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500") !important;
+  height: 400px !important;
+  width: 500px;
+  background-size: cover;
+  position: absolute;
+  line-height: 300px;
+  text-align: center;
+  margin-left: 500px;
+}
+.About-text{
+    background-color: white;
+    margin-top: 413px;
+    padding: 10px;
+}
+.header-title{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    
+}
+.row.internal{
+    margin-left: 0px;
+    margin-top: 5px;
+}
+.card{
+    border-radius: 4px;
+    background: #fff;
+    /* box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px; */
+  cursor: pointer;
+}
+/* .card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+} */
+
+.card-img-bottom {
+    color: #fff;
+    height: 25rem;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiO7yc38zsOyMeIfaMNkhTclCDnd9weW77Bf6Shu53b0VVmNUPK7Uox4ecx4mrDH9xhV4&usqp=CAU) center no-repeat;
+    background-size: cover;
+    float: right;
+  }
+.Image{
+    height: 100%;
+    width: 90%;
+}
+.header-sub-title{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;  
+}
+.faq p,h4{
+    background-color: transparent;
+}
+.About-text-header{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(32, 32, 32);
+}
+/* *{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url('/src/Components/assets/about.jpg') !important; 
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+div.text-about.card{
+    margin-top: 420px;
+    padding: 0px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+}
+p.text-about{
+    /* padding-left: 0px;
+    padding-right: 0px; */
+}
+h5.header-faircent{
+    background-color: white;
+    padding: 7px;
+    /* margin: auto; */
+    margin-left: 11.9px;
+    width: 98.2%;
+    margin-bottom: 0px;
+    font-family: fangsong;
+    font-weight: normal;
+}
+.wrapper {
+    padding: 0px;
+  }
+  
+  /* .image--cover {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+  
+    object-fit: cover;
+    object-position: center right;
+  } */
+  h4.header-text{
+    text-align: center;
+    color: whitesmoke;
+    font-size: smaller;
+    font-family: serif;
+    margin-top: revert;
+  }
+
+  p.inner-text{
+    text-align: center;
+    font-size: smaller;
+    font-family: ui-rounded;
+    color: white;
+  }
+  h4.header-sub{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: -webkit-body;
+  }
+  p.inner-sub{
+    font-size: smaller;
+    font-family: fangsong;
+    font-weight: inherit;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .button-demo{
+      margin-left: 40%;
+      margin-right: 40%;
+  }
+  .card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+  }
+  .card-title.inside{
+    text-align: center !important;
+    color: whitesmoke;
+    font-size: xx-large;
+    font-family: serif;
+    margin-top: revert;
+  }
+  .card-text.inside{
+    font-size: larger;
+    text-align: center;
+    font-family: fangsong;
+    font-weight: inherit;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: whitesmoke;
+  }
+  .image-text{
+      margin-left: auto;
+      width: 100%;
+      height: 100%;
+  }
+  .card img {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: calc(0.25rem - 1px);
+  }
+  .card-title.h5{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: x-large;
+  }
+  p.card-text{
+    font-size: smaller;
+    font-family: emoji;
+    text-align: center;
+  }

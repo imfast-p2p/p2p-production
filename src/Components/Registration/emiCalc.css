@@ -1,0 +1,48 @@
+p.center {
+    background: rgb(240, 242, 240);
+    position: absolute;
+    text-align: center;
+    font-size: 28px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 99px;
+    height: 99px;
+    margin: auto;
+    border-radius: 50%;
+    line-height: 35px;
+    padding: 15% 0 0;
+}
+.slider-horizontal .rangeslider .rangeslider__fill {
+    background-color: #0074bf;
+  }
+
+/* #loanAmtInput:focus{
+    outline: none;
+}  
+#loanAmtInput{
+    width:60px;
+    border:none;
+}
+#monthInput:focus{
+    outline: none;
+}  
+#monthInput{
+    width:60px;
+    border:none;
+}
+#interestInput:focus{
+    outline: none;
+}  
+#interestInput{
+    width:60px;
+    border:none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+

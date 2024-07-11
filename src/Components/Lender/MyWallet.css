@@ -1,0 +1,74 @@
+@media only screen and (max-width:977px) {
+    #myWalletRes1 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+    }
+
+    #myWalletRes2 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+        padding-left: 40px;
+    }
+
+    #myWalletRes3 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+        padding-left: 40px;
+    }
+
+    #myWalletCard1 {
+        min-height: 112px;
+        min-width: 180px;
+    }
+
+    #myWalletCard2 {
+        min-height: 112px;
+        min-width: 180px;
+    }
+
+    #myWalletCard3 {
+        min-height: 112px;
+        min-width: 180px;
+    }
+    #firstCol{
+        display: block;
+        flex-direction: column;
+        min-width: 300px;
+    }
+    #vl{
+        min-height: 430px;
+    }
+    #thirdCol1{
+        padding-left: 60px;
+    }
+    #thirdCol2{
+        padding-left: 60px;
+        padding-bottom: 40px;
+    }
+    #container{
+        padding-left: 0px;
+        margin-left: -37px;
+    }
+}
+
+.nav-pills>.nav-item>#myNavLink.active{
+    background-color: white;
+    color: rgb(40, 116, 166);
+    font-weight: bold;
+    box-shadow: rgba(255, 255, 240, 0.10) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-bottom: 3px solid rgba(0,121,190,1);
+}
+/* @media only screen and (max-width:720px) {
+    .card-title {
+        font-size: 13px;
+        margin-left: -20px;
+    }
+
+    .card-text {
+        font-size: 13px;
+        margin-left: -20px;
+    }
+} */

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="27" viewBox="0 0 33 27">
+  <g id="Admin_Transactions" data-name="Admin Transactions" transform="translate(-1.5 -4.5)">
+    <path id="Path_42540" data-name="Path 42540" d="M7.5,24A1.5,1.5,0,0,1,9,22.5H21a1.5,1.5,0,0,1,0,3H9A1.5,1.5,0,0,1,7.5,24Z" fill="#053652"/>
+    <path id="Path_42541" data-name="Path 42541" d="M27,16.5a1.5,1.5,0,0,1,0,3H15a1.5,1.5,0,0,1,0-3Z" fill="#053652"/>
+    <path id="Path_42542" data-name="Path 42542" d="M24,24a1.5,1.5,0,0,1,1.5-1.5H27a1.5,1.5,0,0,1,0,3H25.5A1.5,1.5,0,0,1,24,24Z" fill="#053652"/>
+    <path id="Path_42543" data-name="Path 42543" d="M10.5,16.5a1.5,1.5,0,0,1,0,3H9a1.5,1.5,0,0,1,0-3Z" fill="#053652"/>
+    <path id="Path_42544" data-name="Path 42544" d="M6,4.5A4.5,4.5,0,0,0,1.5,9V27A4.5,4.5,0,0,0,6,31.5H30A4.5,4.5,0,0,0,34.5,27V9A4.5,4.5,0,0,0,30,4.5Zm24,3H6A1.5,1.5,0,0,0,4.5,9V27A1.5,1.5,0,0,0,6,28.5H30A1.5,1.5,0,0,0,31.5,27V9A1.5,1.5,0,0,0,30,7.5Z" fill="#053652" fill-rule="evenodd"/>
+  </g>
+</svg>

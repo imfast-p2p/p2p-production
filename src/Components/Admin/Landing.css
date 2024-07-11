@@ -1,0 +1,116 @@
+.body-content .image2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.navbar-brand-img {
+  height: 100px;
+}
+
+
+
+.scrollbar-inner .scroll-scrolly_visible {
+   height: auto;
+   margin-bottom: 0px;
+   margin-right: 0px;
+   max-height: 354px;
+}
+
+
+.image2 {
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+
+.sidenav {
+  /* position: fixed; */
+  z-index: 1;
+}
+
+.body-content .header .card-body {
+ font-size: x-small;
+}
+
+.collapse.show {
+visibility: visible;
+}
+.collapsing {
+visibility: visible;
+height: 0;
+-webkit-transition-property: height, visibility;
+transition-property: height, visibility;
+-webkit-transition-timing-function: ease-out;
+transition-timing-function: ease-out;
+}
+.collapsing.width {
+-webkit-transition-property: width, visibility;
+transition-property: width, visibility;
+width: 0;
+height: 100%;
+-webkit-transition-timing-function: ease-out;
+transition-timing-function: ease-out;
+}
+ .img{
+   width: 50% !important;
+ }
+ div.fixed {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  /* border: 3px solid #8AC007; */
+}
+
+@media only screen and (max-width:1060px) {
+  #AcardChange1 {
+    min-height: 150px;
+  }
+
+  #AcardChangeT1 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #AcardChangeT3 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+
+  #AcardChangeT5 {
+    display:inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+
+  #AcardChangeT7 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+  #AcardChangeT9 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+  #AcardChangeT11 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+}
+
+
+
+@media only screen and (max-width:575px) {
+  #AcardChange1 {
+    min-height: 80px;
+  }
+
+}

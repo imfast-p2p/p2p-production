@@ -1,0 +1,47 @@
+@media only screen and (max-width:1029px) {
+
+    /* Navigation */
+    #borAccRes1 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+    }
+
+    #borAccRes2 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+        padding-left: 40px;
+    }
+
+    #borAccRes3 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+        padding-left: 40px;
+    }
+
+/* date */
+    #borAccdate1 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+    }
+
+    #borAccdate2 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+    }
+
+    #borAccdate3 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+    }
+
+    #borAccTdate {
+        margin-left: 2px
+    }
+
+}

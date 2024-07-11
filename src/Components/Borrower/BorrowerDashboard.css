@@ -1,0 +1,319 @@
+.body-content .image2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.navbar-brand-img {
+  height: 100px;
+}
+
+.scrollbar-inner .scroll-scrolly_visible {
+  height: auto;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  max-height: 354px;
+}
+
+
+.image2 {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.sidenav {
+  /* position: fixed; */
+  z-index: 1;
+}
+
+.body-content .header .card-body {
+  font-size: x-small;
+}
+
+.collapse.show {
+  visibility: visible;
+}
+
+.collapsing {
+  visibility: visible;
+  height: 0;
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.collapsing.width {
+  -webkit-transition-property: width, visibility;
+  transition-property: width, visibility;
+  width: 0;
+  height: 100%;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.img {
+  width: 50% !important;
+}
+
+div.fixed {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  /* border: 3px solid #8AC007; */
+}
+
+/* @media only screen and (max-width: 600px) {
+  #one {
+    margin-left: 510px;
+    background-color: green;
+  }
+}
+
+#one {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+/* 
+.c {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .c {
+    width: 80%;
+    display: inline;
+    margin-bottom: 20px;
+  }
+}
+
+.cardo {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height:100px;
+} */
+
+@media only screen and (max-width:1060px) {
+  #BcardChange1 {
+    min-height: 150px;
+  }
+
+  #BcardChange2 {
+    min-height: 150px;
+  }
+
+  #BcardChange3 {
+    min-height: 150px;
+  }
+
+  #BcardChange4 {
+    min-height: 150px;
+  }
+
+  #BcardChange5 {
+    min-height: 150px;
+  }
+
+  #BcardChange6 {
+    min-height: 150px;
+  }
+
+  #BcardChange7 {
+    min-height: 150px;
+  }
+
+  #BcardChange8 {
+    min-height: 150px;
+  }
+
+  #BcardChangeT1 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #BcardChangeT2 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+  }
+
+  #BcardChangeT3 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #BcardChangeT4 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+  }
+
+  #BcardChangeT5 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #BcardChangeT6 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+  }
+
+  #BcardChangeT7 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #BcardChangeT77 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+
+  }
+
+  #BcardChangeT8 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #BcardChangeT9 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+  }
+
+  #BcardChangeT10 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #BcardChangeT11 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+  }
+
+  #BcardChangeT12 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #BcardChangeT13 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+  }
+
+  #BcardChangeT14 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #BcardChangeT15 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+  }
+
+
+  #BescrowChange2 {
+    display: inline;
+    margin-left: -20px;
+
+  }
+
+  #BescrowChange3 {
+    display: inline;
+    margin-left: -20px;
+    min-width: 190px
+  }
+
+
+}
+
+@media only screen and (max-width:800px) {
+  #borAccStatus {
+    display: block;
+    min-height: 200px;
+
+  }
+
+  #textPart {
+    display: block;
+    min-width: fit-content;
+  }
+
+  #borAccStatus1 {
+    display: inline;
+    min-width: fit-content;
+    margin-left: -50%;
+    margin-top: 20%;
+  }
+}
+
+@media only screen and (max-width:574px) {
+  #BcardChange1 {
+    min-height: 80px;
+  }
+
+  #BcardChange2 {
+    min-height: 80px;
+  }
+
+  #BcardChange3 {
+    min-height: 80px;
+  }
+
+  #BcardChange4 {
+    min-height: 80px;
+  }
+
+  #BcardChange5 {
+    min-height: 80px;
+  }
+
+  #BcardChange6 {
+    min-height: 80px;
+  }
+
+  #BcardChange7 {
+    min-height: 80px;
+  }
+
+  #BcardChange8 {
+    min-height: 80px;
+  }
+
+}
+
+@media only screen and (max-width:528px) {
+  #BescrowChange1 {
+    min-height: 280px;
+  }
+
+  #payButton {
+    margin-top: -40px;
+  }
+}

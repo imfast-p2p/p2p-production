@@ -1,0 +1,18 @@
+@media only screen and (max-width:1029px) {
+    #date1 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+    }
+
+    #date2 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+    }
+
+    #Tdate {
+        margin-left: 2px
+    }
+
+}

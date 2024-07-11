@@ -1,0 +1,43 @@
+.form-check-input:checked {
+    background-color:rgba(3,106,175,1);
+    border-color: rgba(3,106,175,1);
+}
+
+.form-check-input{
+    border-color: rgba(3,106,175,1);
+}
+
+#files-area{
+	width: 30%;
+	margin: 0 auto;
+}
+.file-block{
+	border-radius: 10px;
+	background-color: rgba(144, 163, 203, 0.2);
+	margin: 5px;
+	color: initial;
+	display: inline-flex;
+}
+.file-block> span.name{
+    padding-right: 10px;
+    width: 200px;
+    display: block;
+	word-wrap: break-word;  
+}
+.file-delete{
+	display: flex;
+	width: 24px;
+	color: initial;
+	background-color: #6eb4ff00;
+	font-size: large;
+	justify-content: center;
+	margin-right: 3px;
+	cursor: pointer;
+}
+.file-delete:hover{
+    background-color: rgba(144, 163, 203, 0.2);
+    border-radius: 10px;
+}
+.file-delete:hover>span{
+    transform: rotate(45deg);
+}

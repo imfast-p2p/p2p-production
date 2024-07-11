@@ -1,0 +1,21 @@
+@media only screen and (max-width:700px) {
+    #ProductDefRes1 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+    }
+
+    #ProductDefRes2 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+        padding-left: 40px;
+    }
+
+    #ProductDefRes3 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+        padding-left: 40px;
+    }
+}

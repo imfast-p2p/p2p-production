@@ -1,0 +1,37 @@
+#ref-tab {
+    padding-top: 16px;
+    padding-bottom:16px;
+}
+
+#refprofile-tab {
+    padding-top: 16px;
+    padding-bottom:16px;
+}
+
+#brownSquare {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(181, 109, 33);
+    border: none;
+    border-radius: 5px;
+    margin-bottom:-3px;
+}
+
+#greenSquare {
+    width: 15px;
+    height: 15px;
+    background-color:rgb(56, 138, 15);
+    border: none;
+    border-radius: 5px;
+    margin-bottom:-3px;
+}
+
+@media only screen and (max-width:1029.33px) {
+
+    #headingRef {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+        padding-left: 15px;
+    }
+}

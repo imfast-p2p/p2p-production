@@ -1,0 +1,19 @@
+@media only screen and (max-width:700px){
+    #lndemiRes1{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+    }
+    #lndemiRes2{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+        padding-left:40px;
+    }
+    #lndemiRes3{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+        padding-left:40px;
+    }
+  }

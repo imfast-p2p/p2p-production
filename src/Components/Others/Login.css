@@ -1,0 +1,275 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+div.row.main {
+    
+    background-image: url("./assets/background.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.content {
+    margin: 1%;
+    background-color: #fff;
+    padding: 2rem 1rem 4rem 1rem;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, .05);
+}
+
+.signin-text {
+    font-style: normal;
+    font-weight: 600 !important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-color: #00ac96 !important;
+    border-style: solid !important;
+    border-width: 0 0 1px 0 !important;
+    padding: 0px !important;
+    color: #495057;
+    height: auto;
+    border-radius: 0;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-class {
+    border-color: #00ac96;
+    color: #00ac96;
+}
+
+.btn-class:hover {
+    background-color: #00ac96;
+    color: #fff;
+}
+
+.button {
+    background-color: green;
+}
+
+.password-icon {
+    position: absolute;
+    top: 201px;
+    color: rgb(189, 188, 188);
+    right: 5px;
+    cursor: pointer;
+}
+
+ @media only screen and (max-width: 600px) and (min-width: 400px)   {
+    .row.content {
+        height: 195% !important;
+    }
+    label.form-check-label.mr-1{
+        font-size: 14px;
+    }
+     label.form-check-label.mr-4 {
+         font-size: 14px;
+     }
+     .div.password-section{
+        margin-top: 23px;
+     }
+     .password-icon{
+        margin-top: 62px !important;
+     }
+     .div.group{
+         margin-bottom: -25px !important;
+     }
+     .label.label{
+         margin-bottom: 0px;
+     }
+     .tab.text-dark{
+        margin-top: -262px;
+     }
+     
+ }
+ @media only screen and (max-width: 767px) and (min-width: 600px){
+    div.row.content {
+        height: 164% !important;
+    }
+    .tab.text-dark{
+    margin-top: -255px;
+    }
+    label.form-check-label.mr-1{
+        font-size: 14px;
+    }
+     label.form-check-label.mr-4 {
+         font-size: 14px;
+     }
+     .password-icon{
+        top: 189px;
+     }
+ }
+ 
+ @media only screen and (max-width: 992px) and (min-width: 768px){
+  div.row.content {
+    height: 158% !important;
+  }
+  .tab.text-dark{
+      margin-top: 20px !important;
+  }
+  label.form-check-label.mr-1{
+    font-size: 14px;
+}
+ label.form-check-label.mr-4 {
+     font-size: 14px;
+ }
+ .password-icon{
+    top: 208px !important;
+ }
+ }
+ @media only screen and  (min-width: 900px){
+   .row.content{
+    height: 111% !important;
+   }  
+ }
+ @media only screen and (max-width: 399px)  {
+     .password-icon{
+        top: 272px !important;
+     }
+     .row.content{
+        height: 250% !important;
+     }
+     .tab.text-dark{
+        margin-top: -272px;
+     }
+     label.form-check-label.mr-1{
+        font-size: 14px;
+    }
+     label.form-check-label.mr-4 {
+         font-size: 14px;
+     }
+ }
+ @media only screen and (max-width: 912px) and (min-width: 1368px){
+    div.row.content {
+        height: 130% !important;
+      }   
+ } */
+
+ option {
+    background: #e6f2ff;
+    color: #008ae6;
+
+}
+
+#forgotPassw:hover {
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .row {
+        display: block;
+        min-width: 430px;
+    }
+
+    .col-5 .card {
+        display: block;
+        min-width: 401px;
+    }
+
+    .col-5 .head1 {
+        margin-top: -50px;
+    }
+
+    .col-5 img {
+        margin-top: -22px;
+    }
+
+    /* .container {
+        padding: 0px 20px 0px 10px;
+    } */
+    /* #mulUserTypes{
+        padding: 0px ;
+        margin-left: auto;
+    } */
+}
+
+
+
+@media only screen and (max-width: 1199px) {
+    #loginCard {
+        display: block;
+        max-width: 245px;
+    }
+
+    #loginCard1 {
+        max-width: 312px;
+    }
+
+    .heading {
+        float: right;
+        margin-right: 10px;
+    }
+
+    .passwordHead {
+        padding-bottom: 12px;
+    }
+
+    
+    /* #mulUserTypes{
+        min-width:fit-content;
+        padding: 0px 25px;
+       margin-left:45px;
+    } */
+    i {
+        top: -75px;
+        left: 77%;
+    }
+
+    #pswd {
+        margin-top: 10px;
+    }
+
+    #sysPswd {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .loginName {
+        margin-left: -73px;
+    }
+
+    .prePassword {
+        margin-left: -73px;
+    }
+
+    #submitBtn {
+        margin-left: -73px;
+    }
+
+    i {
+        left: auto;
+        top: 5px;
+    }
+
+    #fgPswrd {
+        margin-left: -73px;
+    }
+
+    #headingWlcm {
+        margin-right: 63px;
+        width: 350px;
+    }
+    .passwordHead {
+        padding-bottom: 1px;
+    }
+    /* #mulUserTypes{
+        padding: 0px ;
+        margin-left: auto;
+    } */
+}

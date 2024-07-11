@@ -1,0 +1,93 @@
+p.title{
+    font-family: emoji;
+    font-weight: 700;
+}
+h6.Sub-title{
+    font-size: inherit;
+    font-weight: 300;
+    font-family: initial;
+    margin-left: -7px;
+}
+div.card-header.border-0{
+    margin: 5px;
+    border: 1px solid #ccc;
+    transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
+    /* background-color: lavender; */
+}
+div.card-header.border-0:hover {
+    box-shadow: 0 11px 11px 0 rgba(0, 0, 0,.16);
+    transform: translateY(-5px);
+  }
+  img{
+      margin-left: -10px;
+  }
+  th.th-sm{
+      text-align: center;
+  }
+  td{
+      text-align: center;
+  }
+
+  /* @media screen and(max-width:600px){
+      #one{
+          margin-left:510px;
+          background-color: green;
+      }
+  } */
+  #one{
+      display:flex;
+      flex-wrap: wrap;
+  }
+
+  @media only screen and (max-width:700px){
+    #navRes1{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+    }
+    #navRes2{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+        padding-left:40px;
+    }
+    #navRes3{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+        padding-left:40px;
+    }
+
+    #filterCard{
+        display: block;
+        flex-direction:column;
+        max-width:340px;
+    }
+  }
+  /* Scorllbar */
+  @media only screen and (min-width: 400px) {
+    #coli{
+        display: block;
+        flex-direction:column;
+        min-width:340px;
+    }
+  }
+/*     
+  @media screen and (min-width: 1080px) {
+
+    #wrap2 {margin-left: 510px;
+    margin-top:-130px;
+    }
+    #wraplabel1{
+        margin-left: -10px;
+    }
+  }
+  @media screen and(max-width:500px){
+      #wrap2{
+          margin-top: -100px;
+      }
+  } */
+  
+  
+   
+  

@@ -1,0 +1,207 @@
+.body-content .image2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.navbar-brand-img {
+  height: 100px;
+}
+
+
+
+.scrollbar-inner .scroll-scrolly_visible {
+  height: auto;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  max-height: 354px;
+}
+
+
+.image2 {
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+
+.sidenav {
+  /* position: fixed; */
+  z-index: 1;
+}
+
+.body-content .header .card-body {
+  font-size: x-small;
+}
+
+.collapse.show {
+  visibility: visible;
+}
+
+.collapsing {
+  visibility: visible;
+  height: 0;
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.collapsing.width {
+  -webkit-transition-property: width, visibility;
+  transition-property: width, visibility;
+  width: 0;
+  height: 100%;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.img {
+  width: 50% !important;
+}
+
+div.fixed {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  /* border: 3px solid #8AC007; */
+}
+
+@media only screen and (max-width:1060px) {
+  #SyscardChange1 {
+    min-height: 150px;
+  }
+
+  #SyscardChange2 {
+    min-height: 150px;
+  }
+
+  #SyscardChange3 {
+    min-height: 150px;
+  }
+
+  #SyscardChange4 {
+    min-height: 150px;
+  }
+
+  #SyscardChange5 {
+    min-height: 150px;
+  }
+
+  #SyscardChange6 {
+    min-height: 150px;
+  }
+
+  #SyscardChange7 {
+    min-height: 150px;
+  }
+
+  #SyscardChange8 {
+    min-height: 150px;
+  }
+
+  #SyscardChangeT1 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+
+  }
+
+  #SyscardChangeT2 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #SyscardChangeT3 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #SyscardChangeT4 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+
+  #SyscardChangeT8 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+
+
+  #SyscardChangeT10 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+
+  #SyscardChangeT12 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #SyscardChangeT13 {
+    display: inline;
+    font-size: 1rem;
+    min-width: 150px;
+  }
+
+  #SyscardChangeT14 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+
+}
+
+@media only screen and (max-width:574px) {
+  #SyscardChange1 {
+    min-height: 80px;
+  }
+
+  #SyscardChange2 {
+    min-height: 80px;
+  }
+
+  #SyscardChange3 {
+    min-height: 80px;
+  }
+
+  #SyscardChange4 {
+    min-height: 80px;
+  }
+
+  #SyscardChange5 {
+    min-height: 80px;
+  }
+
+  #SyscardChange6 {
+    min-height: 80px;
+  }
+
+  #SyscardChange7 {
+    min-height: 80px;
+  }
+
+  #SyscardChange8 {
+    min-height: 80px;
+  }
+
+}
+
+@media only screen and (max-width:980px) {
+  #SysborAccStatus1 {
+    display: inline;
+    margin-left: -15%;
+
+
+  }
+}

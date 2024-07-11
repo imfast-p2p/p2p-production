@@ -1,0 +1,252 @@
+.body-content .image2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.navbar-brand-img {
+  height: 100px;
+}
+
+
+
+.scrollbar-inner .scroll-scrolly_visible {
+  height: auto;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  max-height: 354px;
+}
+
+
+.image2 {
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+
+.sidenav {
+  /* position: fixed; */
+  z-index: 1;
+}
+
+.body-content .header .card-body {
+  font-size: x-small;
+}
+
+.collapse.show {
+  visibility: visible;
+}
+
+.collapsing {
+  visibility: visible;
+  height: 0;
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.collapsing.width {
+  -webkit-transition-property: width, visibility;
+  transition-property: width, visibility;
+  width: 0;
+  height: 100%;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.img {
+  width: 50% !important;
+}
+
+div.fixed {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  /* border: 3px solid #8AC007; */
+}
+
+@media only screen and (max-width:1060px) {
+  #FcardChange1 {
+    min-height: 150px;
+  }
+
+  #FcardChange2 {
+    min-height: 150px;
+  }
+
+  #FcardChange3 {
+    min-height: 150px;
+  }
+
+  #FcardChange4 {
+    min-height: 150px;
+  }
+
+  #FcardChange5 {
+    min-height: 150px;
+  }
+
+  #FcardChange6 {
+    min-height: 150px;
+  }
+
+ 
+
+  #FcardChangeT1 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #FcardChangeT2 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #FcardChangeT3 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #FcardChangeT4 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #FcardChangeT5 {
+    display:inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+
+  #FcardChangeT6 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+  #FcardChangeT7 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+  #FcardChangeT13 {
+    display: inline;
+    font-size: 14px;
+    min-width: 150px;
+  }
+  
+
+  #escrowChange1 {
+    min-height: 200px;
+  }
+
+}
+
+
+
+@media only screen and (max-width:575px) {
+  #FcardChange1 {
+    min-height: 80px;
+  }
+
+  #FcardChange2 {
+    min-height: 80px;
+  }
+
+  #FcardChange3 {
+    min-height: 80px;
+  }
+
+  #FcardChange4 {
+    min-height: 80px;
+  }
+
+  #FcardChange5 {
+    min-height: 80px;
+  }
+
+  #FcardChange6 {
+    min-height: 80px;
+  }
+
+  #FcardChange7 {
+    min-height: 80px;
+  }
+
+  #FcardChange8 {
+    min-height: 80px;
+  }
+ 
+
+}
+@media only screen and (max-width:528px) {
+  #escrowChange1{
+    min-height: 280px;
+  }
+  #escrowChange4{
+    margin-top:30px;
+  }
+}
+
+@media only screen and (max-width:800px){
+  #facAccStatus{
+    display:block;
+    min-height: 200px ;
+    margin-left: -20px;
+  }
+  #factextPart{
+    display:block;
+    min-width: fit-content;
+  }
+  #facAccStatus1{
+    display: block;
+    min-width: fit-content;
+    margin-left: -60%;
+    margin-top: 16%;
+   }
+}
+@media only screen and (max-width:990px) {
+  #escrowChange1 {
+    min-height: 360px;
+  }
+
+  #Ldash1 {
+    display: block;
+    flex-direction: column;
+    min-width: 600px;
+    margin-bottom: 10px;
+  }
+
+  #Ldash3 {
+    display: block;
+    flex-direction: column;
+    min-width: 600px;
+    margin-left: -20px;
+    margin-bottom: 10px;
+  }
+  #escrowChange2 {
+    display: block;
+    flex-direction: column;
+    min-width: 516px;
+
+  }
+  #escrowChange2 {
+    display: block;
+    flex-direction: column;
+    min-width: 516px;
+
+  }
+
+  #escrowChange4{
+    display: block;
+    flex-direction: column;
+    min-width: 516px;
+
+  }
+  
+}

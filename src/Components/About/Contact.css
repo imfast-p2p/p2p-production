@@ -1,0 +1,90 @@
+body{
+    background-color: whitesmoke !important;
+}
+.Contact {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.445), rgba(20, 20, 20, 0.76)), url("https://www.softwaresuggest.com/blog/wp-content/uploads/2018/03/toolyt-software-review.jpg") !important;
+  height: 450px !important;
+  width: 500px;
+  background-size: cover;
+  position: absolute;
+  line-height: 300px;
+  text-align: center;
+  margin-left: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+.Header-contact{
+    padding-top: 20px;
+    color: whitesmoke;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.Header-sub-contact{
+    margin-top: 198px;
+    color: whitesmoke;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.Contact-text{
+    margin-top: 474px;
+    background-color: whitesmoke;
+}
+.contact h4{
+    color: #4db6ac;
+}
+.contact h5{
+    color: #81d4fa;
+}
+.fixed-row-bottom {
+    /* position: fixed;
+    bottom: 0; */
+    background: #31383D;
+}
+
+input[type="radio"] {
+    margin-right: 5px
+  }
+ p.footer{
+      color: whitesmoke;
+      font-family: -webkit-body;
+      font-weight: 100;
+  }
+  h5.header-about{
+    color: #508BC7;
+    font-family: fangsong;
+  }
+  .fa {
+    padding: 9px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  p.info{
+    text-align: center;
+    color: white;
+    font-family: math;
+    margin-bottom: auto;
+  }

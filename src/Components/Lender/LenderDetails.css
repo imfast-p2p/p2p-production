@@ -1,0 +1,164 @@
+@media only screen and (max-width:930px) {
+    #cardC {
+        margin-left: -50px;
+    }
+
+    #personalCard2 {
+        display: block;
+        flex-direction: column;
+        min-width: 200px;
+        min-height: 500px;
+    }
+
+    #LimgCol {
+        display: block;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    #Lpdetail1Col {
+        display: block;
+        flex-direction: column;
+        margin-top: 140px;
+        margin-left: -32px;
+    }
+
+    #LemailF1 {
+        min-width: 100px;
+    }
+
+    #LemailF2 {
+        min-width: 100px;
+    }
+
+    #LemailF3 {
+        min-width: 100px;
+    }
+
+    #LemailF4 {
+        min-width: 100px;
+    }
+
+    #LpOne {
+        margin-top: -5px;
+    }
+
+    #LpTwo {
+        margin-top: -13px;
+    }
+
+    #LpThree {
+        margin-top: -13px;
+    }
+
+    #LpFour {
+        margin-top: -13px;
+    }
+
+    #LemailpF {
+        margin-top: -13px;
+    }
+
+    #LgenderpF {
+        margin-top: -13px;
+    }
+
+    #LcontactpF {
+        margin-top: -13px;
+    }
+
+    #LdobpF {
+        margin-top: -13px;
+    }
+
+    /* Navigation */
+    #LnavRes1 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+    }
+
+    #LnavRes2 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+        padding-left: 40px;
+    }
+
+    #LnavRes3 {
+        display: block;
+        flex-direction: column;
+        min-width: 400px;
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    #digisubmit2 {
+        display: block;
+        flex-direction: column;
+    }
+
+    #digisubmit3 {
+        display: block;
+        flex-direction: column;
+    }
+
+    #digisubmit4 {
+        display: block;
+        flex-direction: column;
+    }
+
+    /* #digisubmit5{
+        display: block;
+        flex-direction:column;
+    }
+    #digisubmit6{
+        display: block;
+        flex-direction:column;
+    } */
+}
+
+@media only screen and (max-width:800px) {
+    #LpThree {
+        min-width: 260px;
+    }
+
+    #LpFour {
+        min-width: 260px;
+    }
+}
+
+@media only screen and (max-width:690px) {
+    #Lpdetail1Col {
+        margin-left: 20px;
+    }
+
+    #personalCard2 {
+        min-height: 600px;
+    }
+}
+
+
+.errspan {
+    float: right;
+    margin-right: -2px;
+    margin-top: -43px;
+    position: relative;
+    z-index: 2;
+    /* color: red; */
+}
+
+/* .nav-pills .nav-link.active{
+    background-color: rgb(40, 116, 166);
+    color:white;
+} */
+/* .container-dashboard .main-content .nav-pills .nav-link:hover {
+    color:white;
+} */
+
+#image-container>img{
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

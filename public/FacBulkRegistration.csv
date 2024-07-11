@@ -1,0 +1,6 @@
+name,mobilenumber,emailid,pan,dob,gender,utype,address_present,addr1,addr2,addr3,city,dist,state,pincode,statecode,addrtype,firstrefname,secondrefname,firstrefmobileno,secondrefmobileno,pgmmgrid
+Ayushi Khare,9940783459,ayushikhare@integramicro.co.in,CBCDE1101S,06-07-1996,F,FAC,1,addr1,Addr2,Addr3,Bangalore,Bangalore,Karnataka,560085,KA,1,Ayushi,Ayushi,9940783452,9940783453,L01
+Hema N,9742500802,heman@integramicro.co.in,CBCDE1102S,01-02-1984,F,FAC,1,addr1,ddr2,Addr3,Bangalore,Bangalore,Karnataka,560085,KA,1,Hema,Hema,9742500802,9742500803,L01
+Elango,6380695905,elangos@integramicro.co.in,CBCDE1103S,02-04-1991,M,FAC,1,addr1,Addr2,Addr3,Bangalore,Bangalore,Karnataka,560085,KA,1,Elango,Elango,6380695902,6380695903,L01
+Harshith,6361579075,harshithhv@integramicro.co.in,CBCDE1104S,01-02-1984,M,FAC,1,addr1,ddr2,Addr3,Bangalore,Bangalore,Karnataka,560085,KA,1,Harshith,Harshith,6361579072,6361579073,L01
+Shaheen,9731926517,shaheenm@integramicro.co.in,CBCDE1105S,02-04-1991,F,FAC,1,addr1,Addr2,Addr3,Bangalore,Bangalore,Karnataka,560085,KA,1,Shaheen,Shaheen,9731926512,9731926513,L01

@@ -1,0 +1,20 @@
+@media only screen and (max-width:700px) {
+    /* Navigation */
+    #LPay1{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+    }
+    #LPay2{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+        padding-left:40px;
+    }
+    #LPay3{
+        display: block;
+        flex-direction:column;
+        min-width:400px;
+        padding-left:40px;
+    }
+}
