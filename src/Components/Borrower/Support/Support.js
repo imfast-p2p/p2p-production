@@ -411,7 +411,7 @@ export class Support extends Component {
                     paymentmode: this.state.paymentmode,
                     paymentdate: this.state.paymentdate,
                     paymentpurpose: this.state.paymentpurpose,
-                    paymenttoaccount: this.state.paymenttoaccount
+                    ...(this.state.paymenttoaccount && { paymenttoaccount: this.state.paymenttoaccount })
                 }
             })
         } else {
@@ -786,7 +786,7 @@ export class Support extends Component {
                                                 </div>
                                                 <div className="row mb-2">
                                                     <div className='col-6 paymentRelatedTag' style={{ display: "none" }}>
-                                                        <p htmlFor="Name" style={{ color: "#222C70", fontFamily: "Poppins,sans-serif", fontWeight: "bold" }}>{t('Payment To Account *')}</p>
+                                                        <p htmlFor="Name" style={{ color: "#222C70", fontFamily: "Poppins,sans-serif", fontWeight: "bold" }}>{t('Payment To Account(Optional)')}</p>
                                                         <input className='form-control' type='text' placeholder='Enter Account number' style={{ marginTop: "-12px" }} onChange={this.accNo} />
                                                         {this.state.isAccountNoValid === false ? <span className='text-danger' style={{ fontSize: "12px" }}><BsInfoCircle />Please enter a valid account number.</span> : ""}
                                                     </div>
